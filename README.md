@@ -23,7 +23,7 @@ GitHub issue opened → webhook/action → 5 agents run in sequence →
 
 In github account, add below two secrets in repo secret:
 - `ANTHROPIC_API_KEY`
-- `GITHUB_TOKEN` - Create this token!
+- `GITHUB_TOKEN` - Create this token, if it does not exist already!
 
 Runs on every `issues: [opened, reopened]` event. No server needed.
 
