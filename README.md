@@ -21,8 +21,14 @@ GitHub issue opened → webhook/action → 5 agents run in sequence →
 
 ### As a GitHub Action
 
-Drop `.github/workflows/triage.yml` into your repo and add two secrets:
+In github account, add below two secrets in repo secret:
 - `ANTHROPIC_API_KEY`
-- `GITHUB_TOKEN` is already provided by GitHub
+- `GITHUB_TOKEN` - Create this token!
 
 Runs on every `issues: [opened, reopened]` event. No server needed.
+
+## Sample Run
+<img width="859" height="242" alt="Screenshot 2026-05-18 at 5 55 19 PM" src="https://github.com/user-attachments/assets/a1644096-073b-45a2-9377-a747229d9cb2" />
+
+<img width="1164" height="119" alt="Screenshot 2026-05-18 at 5 59 12 PM" src="https://github.com/user-attachments/assets/54c1597f-aa0a-4bb6-8c96-60b1191d4c3e" />
+
